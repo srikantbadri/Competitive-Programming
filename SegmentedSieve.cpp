@@ -1,3 +1,5 @@
+//List of primes upto 10^8
+//We need to do binary search to find any prime :)
 #include<iostream>
 #include<vector>
 #include<algorithm>
