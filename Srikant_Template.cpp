@@ -26,15 +26,15 @@ typedef vector<vi> vvi;
 #define cpresent(c,x) 		(find(all(c),x) != (c).end())
 #define FastRead 		ios_base::sync_with_stdio(0);cin.tie(0); 
 
-const double eps=1e-8;
-const int mod=1e9+7;
+const double 			eps=1e-8;
+const int 			mod=1e9+7;
 //const ll inf=1e18;
-#define EQ(a,b)	(fabs((a)-(b))<eps)
+#define EQ(a,b)			(fabs((a)-(b))<eps)
 int main()
 {
 	ll t,i;
 	//freopen("C://Users//Badri//Desktop//input.txt", "r", stdin);
-    //freopen("C://Users//Badri//Desktop//output.txt", "w", stdout);*/
+    	//freopen("C://Users//Badri//Desktop//output.txt", "w", stdout);*/
 	de(t);
 	while(t--)
 	{
