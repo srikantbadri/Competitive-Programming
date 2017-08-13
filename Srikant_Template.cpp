@@ -15,11 +15,11 @@ typedef vector<vi> vvi;
 #define le(a)			printf("%lld\n",a);
 #define p(e)			printf("\n");
 #define loop(i,a)		for(long long int i=0;i<a;i++)
-#define loop2(i,a,b)	for(long long int i=a;i<b;i++)
+#define loop2(i,a,b)		for(long long int i=a;i<b;i++)
 #define fill(a,x)		memset(a,x,sizeof(a))
 #define debug(ccc)		cout<<#ccc<<"="<<ccc<<endl;
 #define sz(a) 			int((a).size()) 
-#define pb 				push_back 
+#define pb 			push_back 
 #define all(c) 			(c).begin(),(c).end() 
 #define tr(c,i) 		for(typeof((c).begin()) i = (c).begin(); i != (c).end(); i++) 
 #define present(c,x) 	((c).find(x) != (c).end()) 
