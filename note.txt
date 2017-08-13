@@ -1,0 +1,42 @@
+-->gcd is computed by __gcd(a,b);
+-->lcm is computed by a*b/gcd;
+1)map is not having any limit unlike array they hav a limit i.e. 10^6
+you can use it in sieve of eratosthenes for bool array of any prime no.
+2)(n&(n-1))==0 -->n is power of 2.
+3)Wrong --->sqrt(n) for number of divisors
+4)Sort one array & sort 2nd array accordingly
+#include <bits/stdc++.h>
+using namespace std;
+struct Point{
+             int x,y;
+            };
+bool myfun(struct Point a,struct Point b)
+{
+  if(a.x<b.x)
+      return true;
+  else
+      return false;
+}
+int main()
+{
+    int n;  //n is the number of elements of array
+    cin>>n;
+    struct Point arr[n];
+    //Enter first array
+    for(int i=0;i<n;i++)
+        cin>>arr[i].x;
+    //Enter second array
+    for(int i=0;i<n;i++)
+        cin>>arr[i].y;
+    //sorting with the help of myfun
+    sort(arr,arr+n,myfun);
+    //now print the arrays
+    for(int i=0;i<n;i++)
+        cout<<arr[i].x<<" ";
+    cout<<"\n";
+    for(int i=0;i<n;i++)
+        cout<<arr[i].y<<" ";
+    return 0;
+}
+
+
