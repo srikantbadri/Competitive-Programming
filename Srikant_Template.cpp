@@ -22,8 +22,8 @@ typedef vector<vi> vvi;
 #define pb 			push_back 
 #define all(c) 			(c).begin(),(c).end() 
 #define tr(c,i) 		for(typeof((c).begin()) i = (c).begin(); i != (c).end(); i++) 
-#define present(c,x) 	((c).find(x) != (c).end()) 
-#define cpresent(c,x) 	(find(all(c),x) != (c).end())
+#define present(c,x) 		((c).find(x) != (c).end()) 
+#define cpresent(c,x) 		(find(all(c),x) != (c).end())
 #define FastRead 		ios_base::sync_with_stdio(0);cin.tie(0); 
 
 const double eps=1e-8;
