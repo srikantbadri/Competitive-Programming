@@ -1,2 +1,4 @@
 # Competitive-Programming
-This project contains all the important codes that can be used.
+This project contains all the algorithm implemented by me mostly in Cpp, Java.
+Organized them into directories according to the topic.
+
