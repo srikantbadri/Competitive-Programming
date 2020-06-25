@@ -26,6 +26,7 @@ All edges times[i] = (u, v, w) will have 1 <= u, v <= N and 0 <= w <= 100.
 
 */
 
+//Time complexity: O(Nlog(N) + E), Space complexity: O(N + E)
 //https://leetcode.com/problems/network-delay-time/
 
 import java.util.ArrayList;
